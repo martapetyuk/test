@@ -1,7 +1,7 @@
 package testproject;
 
 public class HomeWorkApp {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         printThreeWords();
         checkSumSign();
         printColor();
@@ -26,7 +26,6 @@ public class HomeWorkApp {
             System.out.println("Сумма отрицательная");
         }
     }
-
     public static void printColor() {
         int value = 110;
         if (value <= 0) {
